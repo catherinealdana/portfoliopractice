@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@import url(https://fonts.google.com/specimen/Quicksand);
+
+/*------ structure -----*/
+
+body {
+  background-color: #7c7c7e;
+  margin: 0;
+  
+}
+
+nav{
+  text-align: center;
+  margin: 200 200 200 200px;
+  font-family: "Quicksand",Quicksand;;
+}
+
+img {
+  margin: 10 10 0 20px;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #473942;
+}
+
+h1 {
+ font-family: "Quicksand",Quicksand, bold;
+ font-size: 40px;
+ text-align: center;
+ color: #400826
+ }
+h4 {
+  font-family:  "Quicksand",Quicksand,bold;
+  font-size: 15px;
+  text-align: center;
+  color: #400826
+  
+}
+
+h2{
+  font-family:  "Quicksand",Quicksand;
+  font-size: 35px;
+  text-align: center;
+  color: #400826
+}
+
+p{
+  font-family:'Trebuchet MS', sans-serif;;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right:300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+  }
+
+ul{
+  font-family:  'Trebuchet MS', sans-serif;;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #400826;
+  margin-bottom: 50px;
+  }
+header > section > div{
+  background-color: #7f6279
+}
+nav a:hover {
+  color: #777;
+}
+
+main>div>article>section>header>h2{
+   background-color: #7f6279;
+}
+
+footer>div>nav{
+  background-color: #7f6279;
+  
+  height: 100px;
+}
+
+}
