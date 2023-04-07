@@ -8,37 +8,61 @@ html {
 /*------ structure -----*/
 
 body {
-  background-color: #7c7c7e;
-  margin: 0;
+  background-color: #404445;
+  margin: auto;
   
 }
 
 nav{
   text-align: center;
-  margin: 200 200 200 200px;
-  font-family: "Quicksand",Quicksand;;
+  margin: auto;
+  font-family: "Quicksand",Quicksand;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 40px;
 }
 
 img {
-  margin: 10 10 0 20px;
-  width: 25%;
+  margin:auto;
+  width: 30%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #473942;
+  padding-top: 10px;
+  padding-right: -50px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  
+  background-color: #404445;
+  text-align: center;
+  
+}
+
+main,nav,
+div {
+  width: 800px;
+  margin: auto;
+  padding-top: 10px;
+  padding-right: 160px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  
 }
 
 h1 {
- font-family: "Quicksand",Quicksand, bold;
+ font-family: "Quicksand",Quicksand;
  font-size: 40px;
  text-align: center;
- color: #400826
+ color: #400826;
+  
+  
  }
-h4 {
-  font-family:  "Quicksand",Quicksand,bold;
-  font-size: 15px;
+div>h3 {
+  font-family:  "Quicksand",Quicksand;
+  font-size: 20px;
   text-align: center;
-  color: #400826
+  color: #400826;
+  margin: center;
+  
   
 }
 
@@ -50,38 +74,58 @@ h2{
 }
 
 p{
-  font-family:'Trebuchet MS', sans-serif;;
+  font-family:"Quicksand",Quicksand;
   font-size: 15px;
-  margin-left: 300px;
-  margin-right:300px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  
-  }
+}
 
-ul{
-  font-family:  'Trebuchet MS', sans-serif;;
-  font-size: 15px;
-  margin-left: 300px;
-  margin-right: 300px;
+ul>li{
+  font-family: "Quicksand",Quicksand;
+  font-size: 25px;
   color: #400826;
-  margin-bottom: 50px;
+  margin:auto;
+  text-align: justify;
   }
 header > section > div{
   background-color: #7f6279
+  width: 100px;
 }
-nav a:hover {
-  color: #777;
+.box {
+  
+  background-color:#7f6279;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  margin:center;
 }
+
+.round {
+  border-radius: 10px;
+}
+
 
 main>div>article>section>header>h2{
    background-color: #7f6279;
 }
 
-footer>div>nav{
-  background-color: #7f6279;
-  
-  height: 100px;
-}
 
+}
+main>div{
+  
+  
+  background-color: #404445;
+  text-align: center;
+  
+  padding-right: 30px;
+  
+  padding-left: 80px;
+  margin:center;
+}
+hr{
+  border: 1px dotted #636363;
+}
+a {
+  color: #bfbfbf;
 }
