@@ -104,6 +104,9 @@ header > section > div{
 .round {
   border-radius: 10px;
 }
+header > div > nav a:hover {
+  color: #668284;
+}
 
 
 main>div>article>section>header>h2{
